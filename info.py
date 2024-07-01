@@ -13,7 +13,7 @@ class Config(object):
     SUDO = list(map(int, os.environ.get("SUDO", "6352107773").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-    PORT = int(os.environ.get("PORT", "0.0.0.0"))
+    PORT = int(os.environ.get("PORT", "0000"))
 
 class Txt(object):
 
